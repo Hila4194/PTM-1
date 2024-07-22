@@ -1,10 +1,11 @@
 package test;
 
-//import test.Tile.Bag;
+import test.Tile.Bag;
 
 public class MainTrain {
 	
-	/*public static void testBag() {
+	public static void testBag()
+	{
 		Bag b=Tile.Bag.getBag();
 		Bag b1=Tile.Bag.getBag();
 		if(b1!=b)
@@ -34,7 +35,7 @@ public class MainTrain {
 		
 		if(b.getTile('a')!=null || b.getTile('$')!=null || b.getTile('A')==null)
 			System.out.println("your getTile is wrong (-2)");
-	}*/
+	}
 	
 	/*private static Tile[] get(String s) {
 		Tile[] ts=new Tile[s.length()];
@@ -92,7 +93,7 @@ public class MainTrain {
 	}*/
 
 	public static void main(String[] args) {
-		//testBag(); // 30 points
+		testBag(); // 30 points
 		//testBoard(); // 70 points
 		System.out.println("done");				
 	}
