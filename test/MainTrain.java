@@ -37,7 +37,7 @@ public class MainTrain {
 			System.out.println("your getTile is wrong (-2)");
 	}
 	
-	/*private static Tile[] get(String s) {
+	private static Tile[] get(String s) {
 		Tile[] ts=new Tile[s.length()];
 		int i=0;
 		for(char c: s.toCharArray()) {
@@ -45,9 +45,9 @@ public class MainTrain {
 			i++;
 		}
 		return ts;
-	}*/
+	}
 	
-	/*public static void testBoard() {
+	public static void testBoard() {
 		Board b = Board.getBoard();
 		if(b!=Board.getBoard())
 			System.out.println("board should be a Singleton (-5)");
@@ -90,11 +90,11 @@ public class MainTrain {
 		Word bit=new Word(get("BIT"), 10, 4, false);
 		if(b.tryPlaceWord(bit)!=22)
 			System.out.println("problem in placeWord for 5th word (-15)");	
-	}*/
+	}
 
 	public static void main(String[] args) {
 		testBag(); // 30 points
-		//testBoard(); // 70 points
+		testBoard(); // 70 points
 		System.out.println("done");				
 	}
 }
